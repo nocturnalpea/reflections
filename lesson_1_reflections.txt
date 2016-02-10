@@ -21,6 +21,9 @@ $ git branch
    * master
    #this means the master is checked out and any changes affects master
 $ git checkout easy-mode # this changes master to easy-mode
+$ git checkout -b new_branch_name is equivalent to:
+     $ git branch new_branch_name
+     $ git checkout new_branch_name
 
 
 
