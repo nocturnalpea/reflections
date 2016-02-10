@@ -12,6 +12,16 @@ git add [file] # puts the files into the staging area
 ** to check files between working directory and staging area, use....
   >> git diff # no arguments...any changes I've made before adding to staging area
 git diff --staged # comparison between staging area and repository!
+git branch : shows current branches
+git branch [name]: creates a new branch with that name
+ie:
+$ git branch easy-mode
+$ git branch
+>> easy-mode
+   * master
+   #this means the master is checked out and any changes affects master
+$ git checkout easy-mode # this changes master to easy-mode
+
 
 
 Linux Commands:
