@@ -9,6 +9,9 @@ Git COmmands in Lesson 2:
 git init # initializes a repository
 git status # shows whats happened in the repository
 git add [file] # puts the files into the staging area
+** to check files between working directory and staging area, use....
+  >> git diff # no arguments...any changes I've made before adding to staging area
+git diff --staged # comparison between staging area and repository!
 
 
 Linux Commands:
