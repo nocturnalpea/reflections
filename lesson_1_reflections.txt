@@ -25,6 +25,10 @@ $ git checkout -b new_branch_name is equivalent to:
      $ git branch new_branch_name
      $ git checkout new_branch_name
 
+$ git merge [file1] [file2]
+$ git show [fileID] # shows what changes (diff) were introduced by the commit compared to its parent
+$ git branch -d [branchID] # this deletes the label. Use this only after you've merged the changes back into master and you no longer need the branch.
+
 
 
 Linux Commands:
