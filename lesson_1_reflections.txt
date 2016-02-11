@@ -29,10 +29,18 @@ $ git merge [file1] [file2]
 $ git show [fileID] # shows what changes (diff) were introduced by the commit compared to its parent
 $ git branch -d [branchID] # this deletes the label. Use this only after you've merged the changes back into master and you no longer need the branch.
 
+Lesson 3: GIT and GITHUB
+git remote
+git remote add origin git@github.com:nocturnalpea/reflections.git
+ ** 
+
 
 
 Linux Commands:
 ls -a # this lists all files (including hidden) in the directory
+
+
+
 
 
 How did viewing a diff between two versions of a file you see the bug that was introduced?
