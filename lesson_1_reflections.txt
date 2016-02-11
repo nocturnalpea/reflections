@@ -33,7 +33,8 @@ Lesson 3: GIT and GITHUB
 git remote
 git remote add origin git@github.com:nocturnalpea/reflections.git
  ** 
-
+git push origin master # this effectively 'pushes' the local repository "master", to the 'origin', tagged with remote URL link
+git pull origin master # effectively pulls the contents from origin to the local repository 'master'
 
 
 Linux Commands:
